@@ -13,7 +13,7 @@ import axios from "axios";
 import SearchBar from "./components/SearchBar";
 import VideoDetail from "./components/VideoDetail";
 import VideoList from "./components/VideoList";
-const API_KEY = "AIzaSyCd1VpockmPlLRM9zz3X-9exGmgFSvmyjk";
+const API_KEY = process.env.VUE_APP_API_KEY;
 
 export default {
   name: "App",
